@@ -1,0 +1,14 @@
+.Dashboard{
+    flex: 3.8 1;
+    background-color: #e1eff3;
+}
+
+.chartdata{
+    display: flex;
+}
+
+.newData{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

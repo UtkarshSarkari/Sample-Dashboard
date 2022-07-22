@@ -1,0 +1,31 @@
+.sidebar{
+    flex: 1;
+    height: calc(100vh - 50px);
+    position: sticky;
+    top: 50px;
+    box-shadow: -12px 0 30px 0px #888;
+}
+
+.menuItemWrapper{
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #000957;
+}
+
+.menuItemWrapper.active, .menuItemWrapper:hover{
+    background-color: #f8f9fa;
+    /* border-left: 10px solid #000957; */
+    color: blue;
+}
+
+.menuItem{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+}

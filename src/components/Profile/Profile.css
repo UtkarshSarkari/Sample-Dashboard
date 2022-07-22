@@ -1,0 +1,46 @@
+.containerProfile{
+    display: flex;
+    position: relative;
+}
+.one1{
+    height: 50vh;
+    border: 1px solid;
+    background-color: #000957;
+    width: 100%;
+}
+
+.float {
+    position: absolute;
+    height: 80vh;
+    border: 1px solid green;
+    background-color: white;
+    width: 60%;
+    top: 2rem;
+    left: 13rem;
+    display: flex;
+    align-items: center;
+}
+
+.cards
+{
+    margin: 2rem;
+    width: 18rem;
+    height: 24rem;
+}
+
+img{
+    height: 14rem;
+}
+
+.bg-success{
+    width: 60%;
+}
+.bg-info{
+    width: 50%;
+}
+.bg-warning{
+    width: 70%;
+}
+.bg-danger{
+    width: 60%;
+}
